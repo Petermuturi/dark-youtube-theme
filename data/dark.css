@@ -1,0 +1,96 @@
+body{
+    background: #1B1B1B !important;
+}
+#footer-container{
+    border-top: 1px solid #020106 !important;
+    background-color: #1B1B1B !important;
+}
+
+#footer-main{
+    border-bottom: 1px solid #1B1B1B !important;
+}
+
+#appbar-guide-menu{
+    background-color: #1B1B1B !important;
+    border-right: 1px solid #020106 !important;
+}
+
+.guide-item{
+    color: #F1F1F1 !important;
+}
+
+.guide-section-separator{
+    border-bottom: 1px solid #020106 !important;
+}
+
+
+#content{
+    background-color: #1B1B1B !important;
+}
+
+
+
+
+
+
+
+/*VIDEO PAGE SPECIFIC STUFF HERE */
+#watch7-sidebar-contents{
+    background-color: #1B1B1B !important;
+}
+
+.video-list .video-list-item .title{
+    color: #B4B4B4 !important;
+}
+
+
+.yt-card {
+    background-color: #1B1B1B !important;
+}
+
+.yt-ui-ellipsis{
+    background-color: #1B1B1B !important;
+}
+
+.branded-page-box, .section-list li .item-section .branded-page-box{
+    border-bottom: 1px solid #020106 !important;
+}
+
+.compact-shelf .yt-uix-button-shelf-slider-pager{
+    background-color: #1B1B1B !important;
+}
+
+#eow-title{
+    color: #FFFFFF !important;
+}
+
+
+/* this is the topbar*/
+#masthead-positioner{
+    background-color: #1B1B1B !important;
+}
+
+#masthead-positioner:hover #appbar-guide-button{
+    background-color: #1B1B1B !important;
+    border: 1px solid #1B1B1B !important;
+
+}
+
+#yt-masthead-container{
+    background-color: #1B1B1B !important;
+    border-bottom: 1px solid #020106 !important;
+
+}
+
+#masthead-search-terms input{
+    background-color: #858585 !important;
+}
+
+.masthead-search-terms-border {
+    border: 1px solid #020106 !important;
+}
+
+#search-btn{
+        background-color: #23A8F0 !important;
+        border: 0px;
+}

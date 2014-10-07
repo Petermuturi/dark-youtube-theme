@@ -1,9 +1,9 @@
 {
   "name": "dark-youtube-ffox-addon",
-  "title": "dark-youtube-ffox-addon",
+  "title": "Dark YouTube Addon",
   "id": "jid1-hDf2iQXGiUjzGQ",
-  "description": "a basic add-on",
+  "description": "this thing will turn the lights on youtube",
   "author": "",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "0.2"
 }

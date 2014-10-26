@@ -2,7 +2,7 @@ body{
     background: #1B1B1B !important;
 }
 #footer-container{
-    border-top: 1px solid #020106 !important;
+    border-top: 1px solid #020106 !important;       /* This is kind of black*/
     background-color: #1B1B1B !important;
 }
 
@@ -29,8 +29,9 @@ body{
 }
 
 
-
-
+.branded-page-module-title a {
+    color: #8D8D8D !important;
+}
 
 
 
@@ -65,7 +66,16 @@ body{
 }
 
 
+
+.feed-header {
+    border-bottom: 1px solid #020106 !important;
+}
 /* this is the topbar*/
+
+#masthead-appbar {
+    border-bottom: 1px solid #020106 !important;
+}
+
 #masthead-positioner{
     background-color: #1B1B1B !important;
 }

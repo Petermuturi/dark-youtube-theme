@@ -2,8 +2,8 @@
   "name": "dark-youtube-ffox-addon",
   "title": "Dark YouTube Addon",
   "id": "jid1-hDf2iQXGiUjzGQ",
-  "description": "this thing will turn the lights on youtube",
-  "author": "",
-  "license": "MPL 2.0",
-  "version": "0.2"
+  "description": "This thing will turn the lights off when you're on youtube",
+  "author": "NiCU Natrapeiu",
+  "license": "GNU GPL v3.0(or later)",
+  "version": "0.3"
 }

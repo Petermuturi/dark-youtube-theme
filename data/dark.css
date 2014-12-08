@@ -141,3 +141,7 @@ body{
 .yt-lockup .yt-lockup-meta a, .yt-lockup .yt-lockup-description a {
     color: #80ff73 !important;
 }
+
+.yt-badge-item{
+    background-color: #23A8F0 !important; /*<----------------------------search button blue */
+}

@@ -33,7 +33,9 @@ body{
     color: #8D8D8D !important;
 }
 
-
+#watch7-sidebar .watch-sidebar-separation-line{
+    border-bottom: 1px solid #E2E2E2 !important;
+}
 
 /*VIDEO PAGE SPECIFIC STUFF HERE */
 #watch7-sidebar-contents{
@@ -89,11 +91,11 @@ body{
 #yt-masthead-container{
     background-color: #1B1B1B !important;
     border-bottom: 1px solid #020106 !important;
-
 }
 
 #masthead-search-terms input{
-    background-color: #858585 !important;
+    /*background-color: #858585 !important;*/
+    background-image: linear-gradient(to top, #858585, #FFFFFF);
 }
 
 .masthead-search-terms-border {
@@ -102,7 +104,7 @@ body{
 
 #search-btn{
     background-color: #23A8F0 !important;
-    border: 0px;
+    border: 0px !important;
 }
 
 /* done with the topbar */
@@ -139,7 +141,7 @@ body{
 
 
 .yt-lockup .yt-lockup-meta a, .yt-lockup .yt-lockup-description a {
-    color: #80ff73 !important;
+    color: #007000 !important;
 }
 
 .yt-badge-item{

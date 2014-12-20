@@ -147,3 +147,14 @@ body{
 .yt-badge-item{
     background-color: #23A8F0 !important; /*<----------------------------search button blue */
 }
+
+#appbar-guide-menu, .guide-flyout{
+	background: none repeat scroll 0% 0% #1B1B1B !important;      /*----  the "More" section of the subscribers list*/
+}
+.guide-flyout{
+    border: 1px solid #020106 !important;
+}
+.yt-gb-shelf-main-content{
+    border: 1px solid #020106 !important;
+    box-shadow: 0px 1px 2px #020106 !important;
+}

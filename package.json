@@ -2,8 +2,8 @@
   "name": "dark-youtube-ffox-addon",
   "title": "Dark YouTube Theme",
   "id": "jid1-hDf2iQXGiUjzGQ",
-  "description": "This thing will turn the lights off when you're on youtube",
+  "description": "This thing will turn the lights off when you're on YouTube",
   "author": "NiCU Natrapeiu",
   "license": "GNU GPL v3.0(or later)",
-  "version": "0.4"
+  "version": "0.5"
 }

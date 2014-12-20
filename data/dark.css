@@ -158,3 +158,7 @@ body{
     border: 1px solid #020106 !important;
     box-shadow: 0px 1px 2px #020106 !important;
 }
+
+.yt-uix-expander-ellipsis{
+	background-color: #1B1B1B;
+}

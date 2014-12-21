@@ -5,149 +5,110 @@ body{
     border-top: 1px solid #020106 !important;       /* This is kind of black*/
     background-color: #1B1B1B !important;
 }
-
 #footer-main{
     border-bottom: 1px solid #1B1B1B !important;
 }
-
 #appbar-guide-menu{
     background-color: #1B1B1B !important;
     border-right: 1px solid #020106 !important;
 }
-
 .guide-item{
     color: #F1F1F1 !important;
 }
-
 .guide-section-separator{
     border-bottom: 1px solid #020106 !important;
 }
-
-
 #content{
     background-color: #1B1B1B !important;
 }
-
-
 .branded-page-module-title a {
     color: #8D8D8D !important;
 }
-
 #watch7-sidebar .watch-sidebar-separation-line{
     border-bottom: 1px solid #E2E2E2 !important;
 }
-
 /*VIDEO PAGE SPECIFIC STUFF HERE */
 #watch7-sidebar-contents{
     background-color: #1B1B1B !important;
 }
-
 .video-list .video-list-item .title{
     color: #B4B4B4 !important;
 }
-
-
 .yt-card {
     background-color: #1B1B1B !important;
 }
-
 .yt-ui-ellipsis{
     background-color: #1B1B1B !important;
 }
-
 .branded-page-box, .section-list li .item-section .branded-page-box{
     border-bottom: 1px solid #020106 !important;
 }
-
 .compact-shelf .yt-uix-button-shelf-slider-pager{
     background-color: #1B1B1B !important;
 }
-
 #eow-title{
     color: #FFFFFF !important;
 }
-
-
-
 .feed-header {
     border-bottom: 1px solid #020106 !important;
 }
 /* this is the topbar*/
-
 #masthead-appbar {
     border-bottom: 1px solid #020106 !important;
 }
-
 #masthead-positioner{
     background-color: #1B1B1B !important;
 }
-
 #masthead-positioner:hover #appbar-guide-button{
     background-color: #1B1B1B !important;
     border: 1px solid #1B1B1B !important;
-
 }
-
 #yt-masthead-container{
     background-color: #1B1B1B !important;
     border-bottom: 1px solid #020106 !important;
 }
-
 #masthead-search-terms input{
     /*background-color: #858585 !important;*/
     background-image: linear-gradient(to top, #858585, #FFFFFF);
 }
-
 .masthead-search-terms-border {
     border: 1px solid #020106 !important;
 }
-
 #search-btn{
     background-color: #23A8F0 !important;
     border: 0px !important;
 }
-
 /* done with the topbar */
-
 #watch-description{
     color: #8D8D8D !important;
 }
-
 .not-watch8 #watch7-user-header .yt-user-name, #watch7-user-header .yt-user-info a {
     color: #8D8D8D !important;
 }
 .yt-uix-button-content{
     color: #8D8D8D !important;
 }
-
 #appbar-nav{
     background-color: #1B1B1B !important;
 }
 .epic-nav-item-heading{
     color: #8D8D8D !important;
 }
-
 .yJa{
     background-color: #1B1B1B !important;
-
 }
 #watch-appbar-playlist .playlist-videos-list{
     background-color: #1B1B1B !important;
 }
-
 .search-header{
     border-bottom: 1px solid #020106 !important;
 }
-
-
 .yt-lockup .yt-lockup-meta a, .yt-lockup .yt-lockup-description a {
     color: #007000 !important;
 }
-
 .yt-badge-item{
     background-color: #23A8F0 !important; /*<----------------------------search button blue */
 }
-
 #appbar-guide-menu, .guide-flyout{
 	background: none repeat scroll 0% 0% #1B1B1B !important;      /*----  the "More" section of the subscribers list*/
 }
@@ -158,14 +119,31 @@ body{
     border: 1px solid #020106 !important;
     box-shadow: 0px 1px 2px #020106 !important;
 }
-
 .yt-uix-expander-ellipsis{
 	background-color: #1B1B1B;
 }
-
 .yt-lockup-playlist-item {
     border-bottom: 1px solid #020106;
 }
 #c4-header-bg-container{
 	border-bottom: 1px solid #020106;
+}
+.yt-card .yt-uix-button-expander{
+    border-top: 1px solid #020106;
+}
+#watch8-action-buttons{
+    border-top: none;
+}
+.yt-ui-menu-content{
+    background: none repeat scroll 0% 0% #1B1B1B !important;
+    border: 1px solid #020106 !important;
+}
+.yt-card .yt-uix-tabs{
+    border-bottom: 1px solid #020106 !important;
+}
+.branded-page-v2-subnav-container{
+    border-bottom: 1px solid #020106 !important;
+}
+.feed-item-container.legacy-style .feed-item-main{
+    border-bottom: 1px solid #020106 !important;
 }

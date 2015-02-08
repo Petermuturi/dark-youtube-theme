@@ -212,6 +212,9 @@ body{
 #non-appbar-vm-video-actions-bar .vm-video-actions-inner{
     border-bottom: 1px solid #020106 !important;
 }
+.watch-card-list td{
+    border-bottom: 1px solid #020106;
+}
 /* The super comment section*/
 .yt/*-card branded-page-box scrolldetect{
 

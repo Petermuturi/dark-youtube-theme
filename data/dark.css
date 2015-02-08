@@ -192,3 +192,22 @@ body{
     color: #8D8D8D !important;
 }
 /*Playlist page end */
+
+.branded-page-related-channels h3 a, .branded-page-related-channels h3{
+    color: #8D8D8D !important;
+}
+#action-panel-details a{
+    color: #167AC6 !important;
+}
+
+.yt-ui-menu-item{
+    color: #CC181E !important;
+}
+
+/* The super comment section*/
+.yt/*-card branded-page-box scrolldetect{
+
+}
+*/
+
+/* end super comment section*/

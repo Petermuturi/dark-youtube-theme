@@ -9,4 +9,6 @@ A speedy addon for firefox that injects custom grey-ish css in your page when yo
 
 Get it from https://addons.mozilla.org/en-US/firefox/addon/dark-youtube-theme
 
-I got that icon from a random website and it was licensed under CC
+Click this also http://mybrowseraddon.com/dark-theme.html
+
+I got that icon from https://www.iconfinder.com/icons/104445/video_youtube_icon, it was created by Picons.me and it's free for commercial use.

@@ -203,7 +203,15 @@ body{
 .yt-ui-menu-item{
     color: #CC181E !important;
 }
-
+#vm-pagination{
+    background: none;
+}
+.view-all-playlists #non-appbar-vm-video-actions-bar .vm-video-actions-inner{
+    background-color: #1B1B1B !important;
+}
+#non-appbar-vm-video-actions-bar .vm-video-actions-inner{
+    border-bottom: 1px solid #020106 !important;
+}
 /* The super comment section*/
 .yt/*-card branded-page-box scrolldetect{
 

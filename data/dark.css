@@ -215,6 +215,13 @@ body{
 .watch-card-list td{
     border-bottom: 1px solid #020106;
 }
+#watch7-sidebar .watch-sidebar-separation-line{
+    border-color: #020106 !important;
+}
+
+#footer-links-primary a{
+    color: #878D8D;
+}
 /* The super comment section*/
 .yt/*-card branded-page-box scrolldetect{
 
@@ -222,3 +229,7 @@ body{
 */
 
 /* end super comment section*/
+
+iframe body{
+    background-color: red !important;
+}

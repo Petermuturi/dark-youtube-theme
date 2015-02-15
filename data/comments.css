@@ -1,0 +1,16 @@
+body
+{
+color: red !important;
+background: none !important;
+}
+
+/* White background cancellation */
+.yJa, /* Top level container */
+.DJa, /* Container for the 'All Comments' text */
+.Mza, /* Container for the 'Share your thoughts' box + your profile picture */
+.BJa /* Container for the 'Top Comments' button */
+{
+/* For debugging. */
+/* background-color: #1b1b1b !important; */
+background: none !important;
+}

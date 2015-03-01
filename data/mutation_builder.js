@@ -1,25 +1,24 @@
 console.error('------------start-----------------');
-window.onload=function(){
+window.onload=setTimeout(function(){
     var target = document.getElementById('comments-test-iframe');
 
     if (target){
-        var observer = new MutationObserver(function(mutations) {
-          mutations.forEach(function(mutation) {
+        var observer = new MutationObserver(function() {
+//          mutations.forEach(function(mutation) {
             // console.error(mutation.type);
-            console.error('------------------->');
-          });
+//            console.error('-----------callback-------->');
+//          });
+            console.error('blah');
         });
         // configuration of the observer:
         var config = { attributes: true, childList: true, characterData: true };
-        console.error('------------no cracks-----------------');
         // pass in the target node, as well as the observer options
-        observer.observe(target, config);
-        console.error('------------no cracks-----------------');
+        console.error('starting to observe');
+        console.error(observer.observe(target, config));
     }else{
         console.error('------------>NO Node--------------');
     }
- };
-console.error('------------end-----------------\n\n');
+ }, 2000);
 // function logURL(tab) {
 //     console.error("fuck yeah\n\n");
 //     var target = document.querySelector('#comments-iframe-container');

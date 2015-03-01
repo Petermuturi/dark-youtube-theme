@@ -1,6 +1,5 @@
 .yJa, .BJa, .mj, .WD, .DJa{ /*.d-A-B{*/
-        background: #1B1B1B !important;
-
+    background: #1B1B1B !important;
 }
 #root{
     border: 1px solid #020106 !important;
@@ -8,7 +7,6 @@
 .ot-hashtag, .proflink, .Mpa, .Ct, .Aq, .d-A, .E5{
     color: #F1F1F1 !important;
 }
-
 .d-A:hover{
     background: #8d8d8d !important;
 }

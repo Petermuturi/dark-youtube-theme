@@ -4,9 +4,15 @@
 #root{
     border: 1px solid #020106 !important;
 }
-.ot-hashtag, .proflink, .Mpa, .Ct, .Aq, .d-A, .E5{
-    color: #F1F1F1 !important;
+.ot-hashtag, .proflink, .Mpa, .Ct, .Aq, .d-A, .Oga{
+    color: #8d8d8d !important;
+    /*text-shadow: 0 1px 1px #333 !important;*/
 }
+.Oga{
+    color: #FFFFFF !important;
+    text-shadow: 0 1px 1px #333 !important;
+}
+
 .d-A:hover{
     background: #8d8d8d !important;
 }
@@ -19,6 +25,12 @@
 }
 .E5{
     background-color: #8d8d8d !important;
+    border-color: #020106 #020106 #020106 #8d8d8d !important;
+}
+.r3 .r0{
+    background-image: none;
+    background-color: #8d8d8d;
+    border: 1px solid #020106;
 }
 /*this is the search dropdown  some day i'll fix this also */
 /*.gssb_m{

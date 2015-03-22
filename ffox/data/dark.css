@@ -131,19 +131,19 @@ body{
     box-shadow: 0px 1px 2px #020106 !important;
 }
 .yt-uix-expander-ellipsis{
-	background-color: #1B1B1B;
+    background-color: #1B1B1B !important;
 }
 .yt-lockup-playlist-item {
-    border-bottom: 1px solid #020106;
+    border-bottom: 1px solid #020106 !important;
 }
 #c4-header-bg-container{
-	border-bottom: 1px solid #020106;
+    border-bottom: 1px solid #020106 !important;
 }
 .yt-card .yt-uix-button-expander{
-    border-top: 1px solid #020106;
+    border-top: 1px solid #020106 !important;
 }
 #watch8-action-buttons{
-    border-top: none;
+    border-top: none !important;
 }
 .yt-ui-menu-content{
     background: none repeat scroll 0% 0% #1B1B1B !important;
@@ -165,15 +165,14 @@ body{
     box-shadow: none !important;
 }
 .yJa{
-	background-color: none;
+    background-color: none;
 }
 
 #watch7-sidebar .watch-sidebar-head{
-	color: #FFFFFF;
+    color: #8D8D8D  !important;
 }
-
 .nbc{  /* when you hover on a channel name */
-	background-color: #1B1B1B;
+    background-color: #1B1B1B;
 }
 
 .branded-page-module-title {
@@ -213,37 +212,30 @@ body{
     border-bottom: 1px solid #020106 !important;
 }
 .watch-card-list td{
-    border-bottom: 1px solid #020106;
+    border-bottom: 1px solid #020106 !important;
 }
 #watch7-sidebar .watch-sidebar-separation-line{
     border-color: #020106 !important;
 }
 
 #footer-links-primary a{
-    color: #8D8D8D;
+    color: #8D8D8D !important;
 }
-/* The super comment section*/
-/*.yt-card branded-page-box scrolldetect{
-
-}
-*/
-
-/* end super comment section*/
 
 /* subscription_manager page*/
 .subscription-manager-title{
-    color: #8D8D8D;
+    color: #8D8D8D !important;
 }
 .subscription-table-header{
-    border-top: 1px solid #020106;
+    border-top: 1px solid #020106 !important;
 }
 #subscription-manager-container .subscription-item, #subscription-manager-container .collection-item {
-    border-top: 1px solid #020106;
+    border-top: 1px solid #020106 !important;
 }
 .feed-channel-header-title{
-    color: #8D8D8D;
+    color: #8D8D8D !important;
 }
 .yt-gb-compact-shelf{
-    border: 1px solid #020106;
-    box-shadow: 0px 1px 2px #020106;
+    border: 1px solid #020106 !important;
+    box-shadow: 0px 1px 2px #020106 !important;
 }

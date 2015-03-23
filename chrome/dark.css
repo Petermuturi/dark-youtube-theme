@@ -229,7 +229,9 @@ body{
 .subscription-table-header{
     border-top: 1px solid #020106 !important;
 }
-#subscription-manager-container .subscription-item, #subscription-manager-container .collection-item {
+#subscription-manager-container .subscription-item,
+#subscription-manager-container .collection-item,
+#subscription-manager-container .empty-message {
     border-top: 1px solid #020106 !important;
 }
 .feed-channel-header-title{
@@ -253,3 +255,10 @@ body{
     background: #424242 !important;
 }
 /* from alex, must fix the subscribe button */
+
+.yt-uix-button-subscribe-unbranded,
+.yt-uix-subscription-button,
+.yt-uix-button-subscribed-unbranded{
+    border-color: #575757 !important;
+    background: #424242 !important;
+}

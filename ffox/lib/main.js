@@ -4,7 +4,13 @@ pageMod.PageMod({
   include: ["https://www.youtube.*", "http://www.youtube.*"],
   contentStyleFile: self.data.url("dark.css")
 });
-
+pageMod.PageMod({
+    include: [
+    "https://apis.google.com/*",
+    "https://plus.googleapis.com/*"
+    ],
+    contentStyleFile: self.data.url("dark_comments.css")
+});
 // --------------------------------WELCOME PAGE---------------------------------
 (function () {
   var prefs = require("sdk/simple-prefs").prefs;
@@ -24,4 +30,3 @@ pageMod.PageMod({
   }
 })();
 // ------------------------------END WELCOME PAGE-------------------------------
-ls

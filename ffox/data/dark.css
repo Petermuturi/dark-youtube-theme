@@ -229,7 +229,8 @@ body{
 .subscription-table-header{
     border-top: 1px solid #020106 !important;
 }
-#subscription-manager-container .subscription-item, #subscription-manager-container .collection-item {
+#subscription-manager-container .subscription-item,
+#subscription-manager-container .collection-item {
     border-top: 1px solid #020106 !important;
 }
 .feed-channel-header-title{
@@ -238,4 +239,7 @@ body{
 .yt-gb-compact-shelf{
     border: 1px solid #020106 !important;
     box-shadow: 0px 1px 2px #020106 !important;
+}
+#video-wall-container-v2{   /*the border beneath the right hand side ad on videopage*/
+    border: none !important;
 }

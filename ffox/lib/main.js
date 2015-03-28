@@ -6,8 +6,8 @@ pageMod.PageMod({
 });
 pageMod.PageMod({
     include: [
-    "https://apis.google.com/*",
-    "https://plus.googleapis.com/*"
+    /.*:\/\/apis\.google\.com\/.*\/widget\/render\/comments.*/,
+    /.*:\/\/plus\.googleapis\.com\/.*\/widget\/render\/comments.*/
     ],
     contentStyleFile: self.data.url("dark_comments.css")
 });

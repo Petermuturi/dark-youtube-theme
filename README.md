@@ -13,4 +13,8 @@ or:
 https://chrome.google.com/webstore/detail/dark-youtube-theme/djhcepodfooinnfhfccmoeabagbjchhg
 
 
-Disclaimer: I got that icon from https://www.iconfinder.com/icons/104445/video_youtube_icon, it was created by Picons.me and it's free for commercial use.
+Disclaimer: 
+
+I got that main icon from https://www.iconfinder.com/icons/104445/video_youtube_icon, it was created by Picons.me and it's free for commercial use.
+
+I got the puppy eyes icon from http://thenounproject.com/term/puppy-eyes/30086/, it was created by Joe Shelton and it's licensed under CC Attribution 3.0 (CC BY 4.0)

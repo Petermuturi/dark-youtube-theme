@@ -111,6 +111,9 @@ body{
 #watch-appbar-playlist .playlist-videos-list{
     background-color: #1B1B1B !important;
 }
+#watch-appbar-playlist .playlist-videos-list .yt-ui-ellipsis{
+    background-color: inherit !important;
+}
 .search-header{
     border-bottom: 1px solid #020106 !important;
 }
@@ -179,6 +182,7 @@ body{
     color: #8D8D8D !important;   /* greyish kind of white, good for titles  */
 }
 /*Playlist page start */
+
 #pl-header .pl-header-title{
     color: #8D8D8D !important;
 }
@@ -214,6 +218,11 @@ body{
 .watch-card-list td{
     border-bottom: 1px solid #020106 !important;
 }
+.watch-card, .watch-card .yt-uix-tabs-selected,
+.branded-page-v2-secondary-col .branded-page-related-channels-see-more a{
+    color: #8D8D8D !important;
+}
+
 #watch7-sidebar .watch-sidebar-separation-line{
     border-color: #020106 !important;
 }
@@ -230,7 +239,8 @@ body{
     border-top: 1px solid #020106 !important;
 }
 #subscription-manager-container .subscription-item,
-#subscription-manager-container .collection-item {
+#subscription-manager-container .collection-item,
+#subscription-manager-container .empty-message {
     border-top: 1px solid #020106 !important;
 }
 .feed-channel-header-title{

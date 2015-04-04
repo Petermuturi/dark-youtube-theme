@@ -281,7 +281,13 @@ body{
     background-color: #1B1B1B !important;   /*or inherit */
 }
 
-
+/*searches related to something*/
+.search-shelf h3, .search-refinements h3{
+    color: #F1F1F1 !important;
+}
+.search-refinements{
+    border-color: #020106 !important;
+}
 /* The NEWSTYLE weird looking comments section*/
 .all-comments, .all-comments a, .comments .channel-owner .comment-header .user-name{
     background: #1B1B1B !important;

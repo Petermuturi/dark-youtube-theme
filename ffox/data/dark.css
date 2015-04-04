@@ -96,9 +96,6 @@ body{
 .not-watch8 #watch7-user-header .yt-user-name, #watch7-user-header .yt-user-info a {
     color: #8D8D8D !important;
 }
-.yt-uix-button-content{
-    color: #8D8D8D !important;
-}
 #appbar-nav{
     background-color: #1B1B1B !important;
 }
@@ -253,3 +250,51 @@ body{
 #video-wall-container-v2{   /*the border beneath the right hand side ad on videopage*/
     border: none !important;
 }
+
+/* from alex, must fix the subscribe button */
+.yt-lockup-title a {
+    color: #ABABAB !important;
+}
+.yt-uix-button-content {
+    color: #DDDDDD !important;
+}
+
+.yt-uix-button-default{
+    border-color: #575757 !important;
+    background: #424242 !important;
+}
+/* from alex, must fix the subscribe button */
+
+.yt-uix-button-subscribe-unbranded,
+.yt-uix-subscription-button,
+.yt-uix-button-subscribed-unbranded{
+    border-color: #575757 !important;
+    background: #424242 !important;
+}
+#yt-masthead-user #sb-button-notify{
+    background-color: #1B1B1B !important;   /*or inherit */
+}
+
+
+/* The NEWSTYLE weird looking comments section*/
+.all-comments, .all-comments a, .comments .channel-owner .comment-header .user-name{
+    background: #1B1B1B !important;
+}
+.comment-text-content{
+    color: #8d8d8d !important;
+}
+.box{
+    color: #FFFFFF !important;
+    text-shadow: 0 1px 1px #333 !important;
+    background-color: #8d8d8d !important;
+    border-color: #020106 !important;
+}
+.comments .paginator, .comments .paginator:hover{
+    background: #424242 none !important;
+    border: 1px solid #020106 !important;
+    color: #FFFFFF !important;
+}
+.comment-source{
+    color: #8d8d8d !important;
+}
+/* End NEWSTYLE weird looking comments section*/

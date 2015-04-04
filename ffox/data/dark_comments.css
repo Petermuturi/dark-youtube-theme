@@ -25,18 +25,16 @@
 }
 .E5{
     background-color: #8d8d8d !important;
-    border-color: #020106 #020106 #020106 #8d8d8d !important;
+    border-color: #020106 !important;
 }
 /*bottom show more button */
 .r3 .r0{
-    background-image: none;
-    background-color: #424242 !important;
+    background: #424242 none !important;
     border: 1px solid #020106 !important;
     color: #FFFFFF !important;
 }
 .r3 .r0:hover{
-    background-image: none;
-    background-color: #282828 !important;
+    background: #282828 none !important;
     border: 1px solid #020106 !important;
     color: #FFFFFF !important;
 }

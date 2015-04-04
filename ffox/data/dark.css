@@ -268,8 +268,14 @@ body{
 .yt-uix-button-subscribe-unbranded,
 .yt-uix-subscription-button,
 .yt-uix-button-subscribed-unbranded{
-    border-color: #575757 !important;
-    background: #424242 !important;
+    border-color: #CCC !important;
+    background: #E62117 !important;
+}
+.yt-uix-button-subscribe-unbranded:hover,
+.yt-uix-subscription-button:hover,
+.yt-uix-button-subscribed-unbranded:hover{
+    border-color: #CCC !important;
+    background: #B31217 !important;
 }
 #yt-masthead-user #sb-button-notify{
     background-color: #1B1B1B !important;   /*or inherit */

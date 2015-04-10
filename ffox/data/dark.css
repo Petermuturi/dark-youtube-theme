@@ -309,4 +309,7 @@ body{
 .comment-source{
     color: #8d8d8d !important;
 }
+.callout-inner, .callout-outer{
+    border: none !important;
+}
 /* End NEWSTYLE weird looking comments section*/

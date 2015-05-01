@@ -268,18 +268,88 @@ body{
 .yt-uix-button-subscribe-unbranded,
 .yt-uix-subscription-button,
 .yt-uix-button-subscribed-unbranded{
-    border-color: #575757 !important;
-    background: #424242 !important;
+    border-color: #CCC !important;
+    background: #E62117 !important;
+}
+.yt-uix-button-subscribe-unbranded:hover,
+.yt-uix-subscription-button:hover,
+.yt-uix-button-subscribed-unbranded:hover{
+    border-color: #CCC !important;
+    background: #B31217 !important;
 }
 #yt-masthead-user #sb-button-notify{
     background-color: #1B1B1B !important;   /*or inherit */
 }
 
+/*searches related to something*/
+.search-shelf h3, .search-refinements h3{
+    color: #F1F1F1 !important;
+}
+.search-refinements{
+    border-color: #020106 !important;
+}
 .yt-alert-message{
     color: #DDDDDD !important;
 }
 
-.yt-dialog-show-content .yt-dialog-content, .yt-dialog-show-loading .yt-dialog-loading, 
+.yt-dialog-show-content .yt-dialog-content, .yt-dialog-show-loading .yt-dialog-loading,
 .yt-dialog-show-working .yt-dialog-working, .yt-dialog-show-working .yt-dialog-content {
     color: #cc181e !important;
 }
+
+/* The NEWSTYLE weird looking comments section*/
+.all-comments, .all-comments a, .comments .channel-owner .comment-header .user-name{
+    background: #1B1B1B !important;
+}
+.comment-text-content{
+    color: #8d8d8d !important;
+}
+.box{
+    color: #FFFFFF !important;
+    text-shadow: 0 1px 1px #333 !important;
+    background-color: #8d8d8d !important;
+    border-color: #020106 !important;
+}
+.comments .paginator, .comments .paginator:hover{
+    background: #424242 none !important;
+    border: 1px solid #020106 !important;
+    color: #FFFFFF !important;
+}
+.comment-source{
+    color: #8d8d8d !important;
+}
+.callout-inner, .callout-outer{
+    border: none !important;
+}
+/* End NEWSTYLE weird looking comments section*/
+
+/*  Upload pages */
+.metadata-editor-container .video-settings-form{
+    background: none repeat scroll 0% 0% #1B1B1B !important;
+}
+
+#main-content .upload-item{
+    border-color: #020106 !important;
+}
+
+.metadata-editor-container .subnav{
+    border-bottom: 1px solid #020106 !important;
+}
+.yt-uix-form-input-textarea, .yt-chip {
+    border: 1px solid #020106 !important;
+}
+
+.yt-chip {
+    border: 1px solid #020106 !important;
+    box-shadow: 0px 1px 0px #020106 !important;
+}
+.advanced-tab-option, .metadata-container h3, .thumb-placeholder, .sharing-networks-label{
+    color: #8d8d8d !important;
+}
+.sharing-balloon{
+    border: 1px solid #020106 !important;
+}
+.sharing-balloon::after, .sharing-balloon::before{
+    border-right: 11px solid #020106 !important;
+}
+/* END Upload pages*/

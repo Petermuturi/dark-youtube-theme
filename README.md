@@ -18,3 +18,5 @@ Disclaimer:
 I got that main icon from https://www.iconfinder.com/icons/104445/video_youtube_icon, it was created by Picons.me and it's free for commercial use.
 
 I got the puppy eyes icon from http://thenounproject.com/term/puppy-eyes/30086/, it was created by Joe Shelton and it's licensed under CC Attribution 3.0 (CC BY 4.0)
+
+I DO NOT OWN the rights for the poster i'm currently using in the crome store, but I wasn't able to find the owner to ask for his permission so far. Any hint is highly appreciated !

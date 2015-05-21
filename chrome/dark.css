@@ -353,3 +353,7 @@ body{
     border-right: 11px solid #020106 !important;
 }
 /* END Upload pages*/
+
+#theater-background {
+    background-color: #1B1B1B !important;
+}

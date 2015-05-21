@@ -356,3 +356,7 @@ body{
 #theater-background {
     background-color: #1B1B1B !important;
 }
+.browse-list-item-container:hover .compact-shelf .yt-uix-button-shelf-slider-pager,
+.compact-shelf:hover .yt-uix-button-shelf-slider-pager{
+    border: 1px solid #020106 !important;
+}

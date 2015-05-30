@@ -1,0 +1,49 @@
+.yJa, .BJa, .mj, .WD, .DJa, .dga{ /*.d-A-B{*/
+    background: #1B1B1B !important;
+}
+#root, .dga{
+    border: 1px solid #020106 !important;
+}
+.ot-hashtag, .proflink, .Mpa, .Ct, .Aq, .d-A, .Oga{
+    color: #8d8d8d !important;
+    /*text-shadow: 0 1px 1px #333 !important;*/
+}
+.Oga{
+    color: #FFFFFF !important;
+    text-shadow: 0 1px 1px #333 !important;
+}
+
+.d-A:hover{
+    background: #8d8d8d !important;
+}
+.g8b, .f8b{
+    border-radius: 8px !important;
+    background-color: #282828 !important;
+}
+.Mga, .Jea{
+    border: none !important;
+}
+.E5{
+    background-color: #8d8d8d !important;
+    border-color: #020106 !important;
+}
+/*bottom show more button */
+.r3 .r0{
+    background: #424242 none !important;
+    border: 1px solid #020106 !important;
+    color: #FFFFFF !important;
+}
+.r3 .r0:hover{
+    background: #282828 none !important;
+    border: 1px solid #020106 !important;
+    color: #FFFFFF !important;
+}
+
+/* top sort comments button*/
+.xN.d-y-r-c{
+    background-color: #424242 !important;
+    border: 1px solid #020106 !important;
+}
+.xN .d-y-r-c-ha{
+    color: #FFFFFF !important
+}

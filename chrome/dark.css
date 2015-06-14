@@ -354,11 +354,22 @@ body{
 }
 /* END Upload pages*/
 
-#theater-background {
-    background-color: #1B1B1B !important;
+/* theather mode player */
+.watch-stage-mode #placeholder-player{
+    background-color : #000000 !important;
 }
-
+/* carousels navigation*/
 .browse-list-item-container:hover .compact-shelf .yt-uix-button-shelf-slider-pager,
 .compact-shelf:hover .yt-uix-button-shelf-slider-pager{
     border: 1px solid #020106 !important;
 }
+
+/* live comments section */
+.live-chat-widget .comment-text{
+    color: #FFFFFF !important;
+}
+
+.live-chat-widget #comments-scroller{
+border-bottom: 1px solid #E2E2E2 !important;
+}
+

@@ -297,6 +297,15 @@ body{
     color: #cc181e !important;
 }
 
+.watch-card-list tr:first-child td {
+    border-top: 1px solid #020106 !important;
+}
+
+.search-header .num-results, .search-header .num-results strong,
+.search-header .yt-uix-button-content, .watch-card a, .watch-card-meta li{
+    color: #ABABAB !important;
+}
+
 /* The NEWSTYLE weird looking comments section*/
 .all-comments, .all-comments a, .comments .channel-owner .comment-header .user-name{
     background: #1B1B1B !important;
@@ -373,3 +382,12 @@ body{
 border-bottom: 1px solid #E2E2E2 !important;
 }
 
+
+/* account/settings pages*/
+#creator-sidebar .creator-sidebar-section a,#creator-sidebar h3,
+#creator-sidebar h3 a, #creator-sidebar .creator-sidebar-branding h1,
+.live-welcome-features p, .live-welcome-feature-heading h3,
+#creator-subheader h2, #creator-sidebar .creator-sidebar-section a:hover{
+    color: #ABABAB !important;
+}
+/* END account/settings pages*/

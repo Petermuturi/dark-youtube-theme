@@ -363,3 +363,12 @@ body{
 .compact-shelf:hover .yt-uix-button-shelf-slider-pager{
     border: 1px solid #020106 !important;
 }
+
+/* account/settings pages*/
+
+#creator-sidebar .creator-sidebar-section a,#creator-sidebar h3, #creator-sidebar h3 a{
+    color: #F1F1F1 !important;
+}
+
+/* END account/settings pages*/
+

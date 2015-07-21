@@ -392,3 +392,6 @@ border-bottom: 1px solid #E2E2E2 !important;
 }
 /* END account/settings pages*/
 
+.appbar-guide-notification-text-content{
+    z-index: 999 !important;
+}

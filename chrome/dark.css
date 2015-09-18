@@ -410,3 +410,9 @@ body{
     background-color: #1B1B1B !important;
 }
 /* Live stream comments area */
+
+
+/* viewer discretion page*/
+#verify h2, #verify-details{
+    color: #F1F1F1 !important;
+}

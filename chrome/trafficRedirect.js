@@ -1,10 +1,17 @@
 chrome.runtime.onInstalled.addListener(function(details){
-    window.open('http://nicu03.github.io/?platform=chrome&v=' +
-                 chrome.runtime.getManifest().version +
-                 (details.reason == "update" ? "&p=" + details.previousVersion +
-                  "&type=upgrade" : "&type=install"),
-                 '_blank');
-
+    if(details.reason == "install"){
+        window.open('http://nicu03.github.io/?platform=chrome&v=' + 
+        chrome.runtime.getManifest().version + 
+        "&type=install",
+        '_blank')
+    }else if(details.reason == "update"){
+        window.open('http://nicu03.github.io/?platform=chrome&v=' + 
+        chrome.runtime.getManifest().version +
+        '&p=' + details.previousVersion +
+        '&type=upgrade"',
+        '_blank');
+    }
+    
     // if(details.reason == "install"){
     //     window.open('http://nicu03.github.io/?platform=chrome
     //         &type=install', '_blank');

@@ -416,3 +416,14 @@ body{
 #verify h2, #verify-details{
     color: #F1F1F1 !important;
 }
+
+/* View all comments page */
+#watch-response{
+    background-color: #1B1B1B !important;
+}
+#watch-response-header-content p a{
+    color: #167AC6 !important;
+}
+#watch-response-content{
+    border: 1px solid #020106 !important;
+}

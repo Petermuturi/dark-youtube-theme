@@ -427,3 +427,8 @@ body{
 #watch-response-content{
     border: 1px solid #020106 !important;
 }
+
+/*Viewing history */
+#browse-items-primary .item-section>li>.yt-lockup-tile {
+    border-bottom: 1px solid #020106 !important;
+}

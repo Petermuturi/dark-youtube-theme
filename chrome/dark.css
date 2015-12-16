@@ -429,7 +429,7 @@ body{
 }
 
 /* Madalina's fix */
-
+/*
  #yt-masthead .yt-masthead-logo-container #logo-container {
     @media(max-width: 704px){
     margin-right: 10px !important;
@@ -441,8 +441,8 @@ body{
         height: 27px !important;
         border-radius: 10px !important;
     }
-}
-/*end of mada fix */ 
+}*/
+/*end of mada fix */
 #browse-items-primary .item-section>li>.yt-lockup-tile {
     border-bottom: 1px solid #020106 !important;
 }

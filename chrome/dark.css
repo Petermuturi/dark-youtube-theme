@@ -442,4 +442,7 @@ body{
         border-radius: 10px !important;
     }
 }
-
+/*end of mada fix */ 
+#browse-items-primary .item-section>li>.yt-lockup-tile {
+    border: 1px solid #020106 !important;
+}

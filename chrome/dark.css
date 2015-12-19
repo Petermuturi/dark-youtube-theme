@@ -428,21 +428,15 @@ body{
     border: 1px solid #020106 !important;
 }
 
-/* Madalina's fix */
-/*
- #yt-masthead .yt-masthead-logo-container #logo-container {
-    @media(max-width: 704px){
-    margin-right: 10px !important;
-    }
-}
-.exp-responsive #yt-masthead #logo-container .logo {
-    @media(max-width: 704px) {
-      width: 39px !important;
-        height: 27px !important;
-        border-radius: 10px !important;
-    }
-}*/
-/*end of mada fix */
+/*Viewing history */
 #browse-items-primary .item-section>li>.yt-lockup-tile {
     border-bottom: 1px solid #020106 !important;
+}
+
+/* Similar searches */
+.search-exploratory-line{
+    border-top: 1px solid #020106 !important;
+}
+.search-exploratory-line h3{
+    color: #ABABAB !important;
 }

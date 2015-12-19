@@ -432,3 +432,11 @@ body{
 #browse-items-primary .item-section>li>.yt-lockup-tile {
     border-bottom: 1px solid #020106 !important;
 }
+
+/* Similar searches */
+.search-exploratory-line{
+    border-top: 1px solid #020106 !important;
+}
+.search-exploratory-line h3{
+    color: #ABABAB !important;
+}

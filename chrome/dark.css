@@ -164,9 +164,10 @@ body{
 .yt-card{
     box-shadow: none !important;
 }
-.yJa{
-    background-color: none;
-}
+/*it seems this is not a valid css and causes errors*/
+/*.yJa{*/
+/*    background-color: none;*/
+/*}*/
 
 #watch7-sidebar .watch-sidebar-head{
     color: #8D8D8D  !important;

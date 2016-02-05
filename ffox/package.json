@@ -1,6 +1,6 @@
 {
+  "name": "nicu03-dark-youtube-ffox-addon",
   "title": "Dark YouTube Theme",
-  "name": "dark-youtube-ffox-addon",
   "version": "2.0.1",
   "description": "Shut down the lights on YouTube. Enjoy!",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"
   },
-  "license": "GPL3",
+  "license": "GPL-3.0+",
   "keywords": [
     "jetpack"
   ]

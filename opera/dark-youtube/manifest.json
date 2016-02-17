@@ -2,7 +2,7 @@
     "name": "Dark YouTube Theme",
     "short_name": "dark-youtube",
     "description": "Shut down the lights on YouTube!",
-    "version": "2.1",
+    "version": "2.3",
     "author":  "NiCU Natrapeiu",
     "icons": {
         "16": "static/icon16.png",

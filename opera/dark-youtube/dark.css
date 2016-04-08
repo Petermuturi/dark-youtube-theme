@@ -85,7 +85,7 @@ body{
     box-shadow: inset 0 1px 2px #333 !important;
 }
 #search-btn{
-    background-color: #167AC6 !important;
+    background-color: #B8B8B8 !important;
     border: 0px !important;
 }
 
@@ -118,7 +118,7 @@ body{
     color: #167AC6 !important;
 }
 .yt-badge-item{
-    background-color: #167AC6 !important; /*<----------------------------search button blue */
+    background-color: #167AC6 !important; /*<----------------------------new video badge, next to a title in a list*/
 }
 #appbar-guide-menu, .guide-flyout{
     background: none repeat scroll 0% 0% #1B1B1B !important;      /*----  the "More" section of the subscribers list*/
@@ -444,4 +444,27 @@ body{
 }
 .search-exploratory-line h3{
     color: #ABABAB !important;
+}
+/* New comments format */
+.comment-simplebox {
+    background-color: #1B1B1B !important;
+}
+
+.comment-simplebox-renderer {
+border-bottom: 1px solid #020106 !important;
+}
+
+.comment-simplebox-renderer-collapsed-content {
+    border: 1px solid #020106 !important;
+    border-top: 1px solid #020106 !important;
+}
+
+.comment-simplebox-arrow .arrow-inner{
+border: none !important;
+}
+.comment-simplebox-arrow .arrow-outer{
+border: 6px solid #020106 !important;
+}
+.sprite-like-dislike{
+    background-color: #B8B8B8 !important;
 }

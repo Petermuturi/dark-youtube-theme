@@ -293,6 +293,11 @@ body{
     color: #DDDDDD !important;
 }
 
+.yt-alert-warn .yt-alert-message{
+    /*alert message for private videos*/
+    color: #020106 !important;
+}
+
 .yt-dialog-show-content .yt-dialog-content, .yt-dialog-show-loading .yt-dialog-loading,
 .yt-dialog-show-working .yt-dialog-working, .yt-dialog-show-working .yt-dialog-content {
     color: #cc181e !important;

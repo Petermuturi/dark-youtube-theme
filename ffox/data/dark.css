@@ -293,6 +293,11 @@ body{
     color: #DDDDDD !important;
 }
 
+.yt-alert-warn .yt-alert-message{
+    /*alert message for private videos*/
+    color: #020106 !important;
+}
+
 .yt-dialog-show-content .yt-dialog-content, .yt-dialog-show-loading .yt-dialog-loading,
 .yt-dialog-show-working .yt-dialog-working, .yt-dialog-show-working .yt-dialog-content {
     color: #cc181e !important;
@@ -462,9 +467,34 @@ border-bottom: 1px solid #020106 !important;
 .comment-simplebox-arrow .arrow-inner{
 border: none !important;
 }
+
 .comment-simplebox-arrow .arrow-outer{
-border: 6px solid #020106 !important;
+    border: 6px solid #020106 !important;
 }
 .sprite-like-dislike{
     background-color: #B8B8B8 !important;
+}
+
+.channel-header .secondary-header-contents{
+    background: #1B1B1B !important;
+    border-bottom: 1px solid #020106 !important;
+}
+.channel-header .secondary-header-contents a .nav-text {
+    color: #F1F1F1 !important;
+}
+
+.c4-checklist-module {
+    border: 1px solid #020106 !important;
+
+}
+.c4-checklist-module .todo-title-text, .view-as-menu-text{
+    color: #ABABAB !important;  /* good to use on non highlighted (standard) text*/
+}
+
+.spotlight-editor-tabs .yt-uix-tabs-selected{
+    color: #F1F1F1 !important;
+}
+
+.empty-upsell-messages h2, .empty-upsell-messages p{
+    color: #ABABAB !important;
 }

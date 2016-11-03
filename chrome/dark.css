@@ -498,3 +498,58 @@ border: none !important;
 .empty-upsell-messages h2, .empty-upsell-messages p{
     color: #ABABAB !important;
 }
+
+/* Icon color fixes */
+#action-panel-overflow-button:before,
+#channel-search .show-search .search-icon,
+#comment-section-renderer .sprite-dislike:before,
+#comment-section-renderer .sprite-like:before,
+#creator-sidebar .studio-icon,
+#pl-header .playlist-share:before,
+.action-panel-trigger-overflow:before,
+.action-panel-trigger-report:before,
+.action-panel-trigger-stats:before,
+.action-panel-trigger-transcript:before,
+.addto-button:before,
+.autoplay-info-icon,
+.creator-editor-icon-captions,
+.creator-editor-icon-cards,
+.creator-editor-icon-edit,
+.creator-editor-icon-endscreen,
+.creator-editor-icon-enhance,
+.like-button-renderer-dislike-button:before,
+.like-button-renderer-like-button:before,
+.play-all-icon-btn:before,
+.yt-help-icon,
+.yt-uix-button-icon-annotation-delete,
+.yt-uix-button-icon-annotation-edit,
+.yt-uix-button-icon-annotation-results,
+.yt-uix-button-icon-bell,
+.yt-uix-button-icon-creator-editor-back,
+.yt-uix-button-icon-icon-account-settings,
+.yt-uix-subscription-preferences-button:before,
+.yt-uix-subscription-preferences-button:before {
+    filter: invert() !important;
+}
+
+.creator-editor-icon-audio {
+    filter: invert(0.8) !important;
+}
+
+.action-panel-trigger-share:before {
+    filter: invert(0.661) !important;
+}
+
+.vm-video-privacy {
+    filter: grayscale() !important;
+}
+
+/* Invert back to normal color if toggeled/hovered */
+#comment-section-renderer .sprite-dislike[data-action-on]:before,
+#comment-section-renderer .sprite-like[data-action-on]:before,
+#creator-sidebar .creator-sidebar-section a:hover > .studio-icon,
+#creator-sidebar .studio-icon.selected,
+.like-button-renderer-like-button.yt-uix-button.yt-uix-button-toggled:before,
+.like-button-renderer-like-button.yt-uix-button:active:before {
+    filter: invert() invert() !important;
+}

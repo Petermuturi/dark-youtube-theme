@@ -521,13 +521,19 @@ border: none !important;
 .like-button-renderer-like-button:before,
 .play-all-icon-btn:before,
 .yt-help-icon,
+.yt-uix-button-action-menu:before,
 .yt-uix-button-icon-annotation-delete,
 .yt-uix-button-icon-annotation-edit,
 .yt-uix-button-icon-annotation-results,
 .yt-uix-button-icon-bell,
 .yt-uix-button-icon-creator-editor-back,
+.yt-uix-button-icon-footer-history,
+.yt-uix-button-icon-footer-language,
 .yt-uix-button-icon-icon-account-settings,
-.yt-uix-subscription-preferences-button:before,
+.yt-uix-button-icon-questionmark,
+.yt-uix-button-icon-view-list,
+.yt-uix-button-icon-view-module,
+.yt-uix-button-lockup-action-menu:before,
 .yt-uix-subscription-preferences-button:before {
     filter: invert() !important;
 }
@@ -542,6 +548,10 @@ border: none !important;
 
 .vm-video-privacy {
     filter: grayscale() !important;
+}
+
+.yt-uix-button-arrow {
+    border-top-color: #8D8D8D !important;
 }
 
 /* Invert back to normal color if toggeled/hovered */

@@ -545,6 +545,22 @@ body{
 }
 /* /Profile Dropdown */
 
+/* Cards */
+.iv-card-content {
+    background: #1B1B1B !important;
+}
+.iv-card h2 {
+    color: #ABABAB !important;
+}
+.iv-card-poll label {
+    color: #767676 !important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTciIHZlcnNpb249IjEuMSIgd2lkdGg9IjE3Ij48Y2lyY2xlIGN4PSI4LjUiIGN5PSI4LjUiIGZpbGw9Im5vbmUiIHI9IjcuNiIgc3Ryb2tlPSIjYWJhYmFiIiBzdHJva2Utb3BhY2l0eT0iMC41NCIgc3Ryb2tlLXdpZHRoPSIxLjgiIC8+PC9zdmc+) !important;
+}
+.iv-card-poll.iv-card-poll-voted label.iv-card-poll-choice-checked {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTciIHZlcnNpb249IjEuMSIgd2lkdGg9IjE3Ij48Y2lyY2xlIGN4PSI4LjUiIGN5PSI4LjUiIGZpbGw9Im5vbmUiIHI9IjcuNiIgc3Ryb2tlPSIjMTY3YWM2IiBzdHJva2Utd2lkdGg9IjEuOCIgLz48Y2lyY2xlIGN4PSI4LjUiIGN5PSI4LjUiIGZpbGw9IiMxNjdhYzYiIHI9IjQuMjMiIC8+PC9zdmc+) !important;
+}
+/* /Cards */
+
 /* Endscreen Cards */
 .ytp-ce-expanding-overlay .ytp-ce-expanding-overlay-background {
     background-color: #1B1B1B !important;

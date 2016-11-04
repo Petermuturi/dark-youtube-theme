@@ -519,3 +519,24 @@ body{
 .empty-upsell-messages h2, .empty-upsell-messages p{
     color: #ABABAB !important;
 }
+
+/* Profile Dropdown */
+.yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border {
+    background: #1B1B1B !important;
+}
+.yt-masthead-account-picker.yt-uix-clickcard-card-content {
+    color: #ABABAB !important;
+}
+.yt-masthead-picker-footer {
+    background-color: #1B1B1B !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+}
+.yt-uix-clickcard-card-reverse .yt-uix-card-body-arrow-vertical,
+.yt-uix-hovercard-card-reverse .yt-uix-card-body-arrow-vertical {
+    top: -11px !important;
+}
+.yt-uix-card-border-arrow-vertical,
+.yt-uix-card-body-arrow-vertical {
+    bottom: -11px !important;
+}
+/* /Profile Dropdown */

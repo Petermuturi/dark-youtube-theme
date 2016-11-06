@@ -637,3 +637,14 @@ body{
     color: #ABABAB !important;
 }
 /* /Endscreen Cards */
+
+@media only screen and (max-width:498px) and (min-width:0px), only screen and (max-width:704px) and (min-width:499px) {
+    /* Fix Play Logo on smaller screens (scale up and crop white corners) */
+    .exp-responsive #yt-masthead #logo-container {
+        background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflh5pqYQ.webp) -442px -126px !important;
+        width: 36px !important;
+        height: 24px !important;
+        transform: scale(1.1) !important;
+        border-radius: 4px !important;
+    }
+}

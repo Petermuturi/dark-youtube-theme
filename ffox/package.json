@@ -2,7 +2,7 @@
   "name": "nicu03-dark-youtube-ffox-addon",
   "title": "Dark YouTube Theme",
   "id": "jid1-hDf2iQXGiUjzGQ@jetpack",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Shut down the lights on YouTube. Enjoy!",
   "main": "index.js",
   "author": "NiCU Natrapeiu",

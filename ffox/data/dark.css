@@ -80,6 +80,15 @@ body{
     color: #F1F1F1 !important;
     text-shadow: 0 1px 1px #333 !important;
 }
+#masthead-search-terms input::-webkit-input-placeholder{
+    color: #333 !important;
+    text-shadow: none !important;
+}
+#masthead-search-terms input::-moz-placeholder{
+    color: black !important;    
+    text-shadow: none !important;
+    opacity: 1 !important;
+}
 .masthead-search-terms-border {
     border-color: #333 !important;
     box-shadow: inset 0 1px 2px #333 !important;
@@ -263,6 +272,9 @@ body{
 .yt-uix-button-default{
     border-color: #575757 !important;
     background: #424242 !important;
+}
+#comment-section-renderer .sprite-comment-actions{
+    background-color: transparent !important;
 }
 /* from alex, must fix the subscribe button */
 
@@ -450,27 +462,48 @@ body{
 .search-exploratory-line h3{
     color: #ABABAB !important;
 }
+
 /* New comments format */
-.comment-simplebox {
-    background-color: #1B1B1B !important;
-}
-
 .comment-simplebox-renderer {
-border-bottom: 1px solid #020106 !important;
+    border-bottom: 1px solid #020106 !important;
 }
-
 .comment-simplebox-renderer-collapsed-content {
     border: 1px solid #020106 !important;
     border-top: 1px solid #020106 !important;
 }
-
-.comment-simplebox-arrow .arrow-inner{
-border: none !important;
+.comment-simplebox {
+    background-color: #1B1B1B !important;
 }
-
-.comment-simplebox-arrow .arrow-outer{
+.comment-simplebox-frame {
+    border: 1px solid #020106 !important;
+}
+.comment-simplebox.focus .comment-simplebox-frame {
+    border-color: #167ac6 !important;
+}
+.comment-simplebox.focus .comment-simplebox-arrow .arrow-outer {
+    border-right-color: #167ac6 !important;
+    border-top-color: #167ac6 !important;
+}
+.comment-simplebox-arrow .arrow-inner {
+    border: 7px solid #1B1B1B !important;
+}
+.comment-simplebox-arrow .arrow-outer {
     border: 6px solid #020106 !important;
 }
+.comment-simplebox-arrow .arrow-inner,
+.comment-simplebox-arrow .arrow-outer {
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+}
+.comment-simplebox-text,
+.comment-simplebox-prompt {
+    background-color: #8D8D8D !important;
+    color: #f1f1f1 !important;
+}
+.comment-simplebox-text:empty:after {
+    color: #020106 !important;
+}
+
 .sprite-like-dislike{
     background-color: #B8B8B8 !important;
 }
@@ -497,4 +530,130 @@ border: none !important;
 
 .empty-upsell-messages h2, .empty-upsell-messages p{
     color: #ABABAB !important;
+}
+
+/* Icon color fixes */
+#action-panel-overflow-button:before,
+#channel-search .show-search .search-icon,
+#comment-section-renderer .sprite-dislike:before,
+#comment-section-renderer .sprite-like:before,
+#creator-sidebar .studio-icon,
+#pl-header .playlist-share:before,
+.action-panel-trigger-overflow:before,
+.action-panel-trigger-report:before,
+.action-panel-trigger-stats:before,
+.action-panel-trigger-transcript:before,
+.addto-button:before,
+.autoplay-info-icon,
+.creator-editor-icon-captions,
+.creator-editor-icon-cards,
+.creator-editor-icon-edit,
+.creator-editor-icon-endscreen,
+.creator-editor-icon-enhance,
+.like-button-renderer-dislike-button:before,
+.like-button-renderer-like-button:before,
+.play-all-icon-btn:before,
+.yt-help-icon,
+.yt-uix-button-action-menu:before,
+.yt-uix-button-icon-annotation-delete,
+.yt-uix-button-icon-annotation-edit,
+.yt-uix-button-icon-annotation-results,
+.yt-uix-button-icon-bell,
+.yt-uix-button-icon-material-upload,
+.yt-uix-button-icon-creator-editor-back,
+.yt-uix-button-icon-footer-history,
+.yt-uix-button-icon-footer-language,
+.yt-uix-button-icon-icon-account-settings,
+.yt-uix-button-icon-questionmark,
+.yt-uix-button-icon-view-list,
+.yt-uix-button-icon-view-module,
+.yt-uix-button-lockup-action-menu:before,
+.yt-uix-subscription-preferences-button:before {
+    filter: invert(1.0) !important;
+}
+
+.creator-editor-icon-audio {
+    filter: invert(0.8) !important;
+}
+
+.action-panel-trigger-share:before {
+    filter: invert(0.661) !important;
+}
+
+.vm-video-privacy {
+    filter: grayscale(1.0) !important;
+}
+
+.yt-uix-button-arrow {
+    border-top-color: #8D8D8D !important;
+}
+
+/* Invert back to normal color if toggeled/hovered */
+#comment-section-renderer .sprite-dislike[data-action-on]:before,
+#comment-section-renderer .sprite-like[data-action-on]:before,
+#creator-sidebar .creator-sidebar-section a:hover > .studio-icon,
+#creator-sidebar .studio-icon.selected,
+.like-button-renderer-like-button.yt-uix-button.yt-uix-button-toggled:before,
+.like-button-renderer-like-button.yt-uix-button:active:before {
+    filter: invert(1.0) invert(1.0) !important;
+}
+
+/* Profile Dropdown */
+.yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border {
+    background: #1B1B1B !important;
+}
+.yt-masthead-account-picker.yt-uix-clickcard-card-content {
+    color: #ABABAB !important;
+}
+.yt-masthead-picker-footer {
+    background-color: #1B1B1B !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+}
+.yt-uix-clickcard-card-reverse .yt-uix-card-body-arrow-vertical,
+.yt-uix-hovercard-card-reverse .yt-uix-card-body-arrow-vertical {
+    top: -11px !important;
+}
+.yt-uix-card-border-arrow-vertical,
+.yt-uix-card-body-arrow-vertical {
+    bottom: -11px !important;
+}
+/* /Profile Dropdown */
+
+/* Cards */
+.iv-card-content {
+    background: #1B1B1B !important;
+}
+.iv-card h2 {
+    color: #ABABAB !important;
+}
+.iv-card-poll label {
+    color: #767676 !important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTciIHZlcnNpb249IjEuMSIgd2lkdGg9IjE3Ij48Y2lyY2xlIGN4PSI4LjUiIGN5PSI4LjUiIGZpbGw9Im5vbmUiIHI9IjcuNiIgc3Ryb2tlPSIjYWJhYmFiIiBzdHJva2Utb3BhY2l0eT0iMC41NCIgc3Ryb2tlLXdpZHRoPSIxLjgiIC8+PC9zdmc+) !important;
+}
+.iv-card-poll.iv-card-poll-voted label.iv-card-poll-choice-checked {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTciIHZlcnNpb249IjEuMSIgd2lkdGg9IjE3Ij48Y2lyY2xlIGN4PSI4LjUiIGN5PSI4LjUiIGZpbGw9Im5vbmUiIHI9IjcuNiIgc3Ryb2tlPSIjMTY3YWM2IiBzdHJva2Utd2lkdGg9IjEuOCIgLz48Y2lyY2xlIGN4PSI4LjUiIGN5PSI4LjUiIGZpbGw9IiMxNjdhYzYiIHI9IjQuMjMiIC8+PC9zdmc+) !important;
+}
+/* /Cards */
+
+/* Endscreen Cards */
+.ytp-ce-expanding-overlay .ytp-ce-expanding-overlay-background {
+    background-color: #1B1B1B !important;
+}
+.ytp-ce-expanding-overlay .ytp-ce-website-title {
+    color: #8D8D8D !important;
+}
+.ytp-ce-expanding-overlay .ytp-ce-website-metadata {
+    color: #ABABAB !important;
+}
+/* /Endscreen Cards */
+
+@media only screen and (max-width:498px) and (min-width:0px), only screen and (max-width:704px) and (min-width:499px) {
+    /* Fix Play Logo on smaller screens (scale up and crop white corners) */
+    .exp-responsive #yt-masthead #logo-container {
+        background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflh5pqYQ.webp) -442px -126px !important;
+        width: 36px !important;
+        height: 24px !important;
+        transform: scale(1.1) !important;
+        border-radius: 4px !important;
+    }
 }

@@ -2,7 +2,7 @@
     "name": "Dark YouTube Theme",
     "short_name": "dark-youtube",
     "description": "Shut down the lights on YouTube!",
-    "version": "3.0",
+    "version": "3.1",
     "author":  "NiCU Natrapeiu",
     "icons": {
         "16": "static/icon16.png",
@@ -16,7 +16,8 @@
         {
             "matches": ["https://www.youtube.com/*", "http://www.youtube.com/*"],
             "css": ["dark.css"],
-            "run_at": "document_start"
+            "run_at": "document_start",
+            "all_frames": true
         },
         {
             "matches": [
@@ -27,9 +28,11 @@
             "run_at": "document_start"
         }
     ],
-    "background": {
-        "scripts": ["trafficRedirect.js"],
-        "persistent": false
+    "browser_action": {
+        "browser_style": true,
+        "default_icon": "static/icon.svg",
+        "default_title": "Dark YouTube Theme",
+        "default_popup": "popup.html"
     },
     "manifest_version": 2
 }

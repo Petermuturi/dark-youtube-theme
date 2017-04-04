@@ -40,6 +40,9 @@ body{
 .yt-uix-sessionlink {
   color: #32CD32 !important;
 }
+.ytp-play-progress, .ytp-scrubber-pull-indicator, .ytp-swatch-background-color, .resume-playback-progress-bar {
+  background-color: #32CD32 !important;
+}
 .yt-uix-sessionlink span{
   color: #fff !important;
 }

@@ -1,9 +1,9 @@
 {
-    "name": "Dark YouTube Theme",
+    "name": "Purple YouTube Theme",
     "short_name": "dark-youtube",
-    "description": "Shut down the lights on YouTube!",
+    "description": "Dim lights",
     "version": "3.0",
-    "author":  "NiCU Natrapeiu",
+    "author":  "Peter Muturi",
     "icons": {
         "16": "static/icon16.png",
         "32": "static/icon32.png",
@@ -27,9 +27,5 @@
             "run_at": "document_start"
         }
     ],
-    "background": {
-        "scripts": ["trafficRedirect.js"],
-        "persistent": false
-    },
     "manifest_version": 2
 }

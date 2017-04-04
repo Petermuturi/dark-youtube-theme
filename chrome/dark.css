@@ -1,15 +1,15 @@
 body{
-    background: #1B1B1B !important;
+    background: #0e0023 !important;
 }
 #footer-container{
     border-top: 1px solid #020106 !important;       /* This is kind of black*/
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 #footer-main{
-    border-bottom: 1px solid #1B1B1B !important;
+    border-bottom: 1px solid #0e0023 !important;
 }
 #appbar-guide-menu{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
     border-right: 1px solid #020106 !important;
 }
 .guide-item{
@@ -19,7 +19,7 @@ body{
     border-bottom: 1px solid #020106 !important;
 }
 #content{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 .branded-page-module-title a {
     color: #8D8D8D !important;
@@ -29,22 +29,22 @@ body{
 }
 /*VIDEO PAGE SPECIFIC STUFF HERE */
 #watch7-sidebar-contents{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 .video-list .video-list-item .title{
     color: #8D8D8D !important;
 }
 .yt-card {
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 .yt-ui-ellipsis{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 .branded-page-box, .section-list li .item-section .branded-page-box{
     border-bottom: 1px solid #020106 !important;
 }
 .compact-shelf .yt-uix-button-shelf-slider-pager{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 #eow-title{
     color: #FFFFFF !important;
@@ -57,14 +57,14 @@ body{
     border-bottom: 1px solid #020106 !important;
 }
 #masthead-positioner{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 #masthead-positioner:hover #appbar-guide-button{
-    background-color: #1B1B1B !important;
-    border: 1px solid #1B1B1B !important;
+    background-color: #0e0023 !important;
+    border: 1px solid #0e0023 !important;
 }
 #yt-masthead-container{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
     border-bottom: 1px solid #020106 !important;
 }
 
@@ -85,7 +85,7 @@ body{
     text-shadow: none !important;
 }
 #masthead-search-terms input::-moz-placeholder{
-    color: black !important;    
+    color: black !important;
     text-shadow: none !important;
     opacity: 1 !important;
 }
@@ -106,16 +106,16 @@ body{
     color: #8D8D8D !important;
 }
 #appbar-nav{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 .epic-nav-item-heading{
     color: #8D8D8D !important;
 }
 .yJa{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 #watch-appbar-playlist .playlist-videos-list{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 #watch-appbar-playlist .playlist-videos-list .yt-ui-ellipsis{
     background-color: inherit !important;
@@ -130,7 +130,7 @@ body{
     background-color: #167AC6 !important; /*<----------------------------new video badge, next to a title in a list*/
 }
 #appbar-guide-menu, .guide-flyout{
-    background: none repeat scroll 0% 0% #1B1B1B !important;      /*----  the "More" section of the subscribers list*/
+    background: none repeat scroll 0% 0% #0e0023 !important;      /*----  the "More" section of the subscribers list*/
 }
 .guide-flyout{
     border: 1px solid #020106 !important;
@@ -140,7 +140,7 @@ body{
     box-shadow: 0px 1px 2px #020106 !important;
 }
 .yt-uix-expander-ellipsis{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 .yt-lockup-playlist-item {
     border-bottom: 1px solid #020106 !important;
@@ -155,7 +155,7 @@ body{
     border-top: none !important;
 }
 .yt-ui-menu-content{
-    background: none repeat scroll 0% 0% #1B1B1B !important;
+    background: none repeat scroll 0% 0% #0e0023 !important;
     border: 1px solid #020106 !important;
 }
 .yt-card .yt-uix-tabs{
@@ -182,7 +182,7 @@ body{
     color: #8D8D8D  !important;
 }
 .nbc{  /* when you hover on a channel name */
-    background-color: #1B1B1B;
+    background-color: #0e0023;
 }
 
 .branded-page-module-title {
@@ -217,7 +217,7 @@ body{
     background: none;
 }
 .view-all-playlists #non-appbar-vm-video-actions-bar .vm-video-actions-inner{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 #non-appbar-vm-video-actions-bar .vm-video-actions-inner{
     border-bottom: 1px solid #020106 !important;
@@ -291,7 +291,7 @@ body{
     background: #B31217 !important;
 }
 #yt-masthead-user #sb-button-notify{
-    background-color: #1B1B1B !important;   /*or inherit */
+    background-color: #0e0023 !important;   /*or inherit */
 }
 
 /*searches related to something*/
@@ -326,7 +326,7 @@ body{
 
 /* The NEWSTYLE weird looking comments section*/
 .all-comments, .all-comments a, .comments .channel-owner .comment-header .user-name{
-    background: #1B1B1B !important;
+    background: #0e0023 !important;
 }
 .comment-text-content{
     color: #8d8d8d !important;
@@ -356,7 +356,7 @@ body{
 
 /*  Upload pages */
 .metadata-editor-container .video-settings-form{
-    background: none repeat scroll 0% 0% #1B1B1B !important;
+    background: none repeat scroll 0% 0% #0e0023 !important;
 }
 
 #main-content .upload-item{
@@ -416,7 +416,7 @@ body{
     text-shadow: 0 1px 1px #333 !important;
 }
 .live-chat-widget .comment, .live-chat-widget, #watch7-sidebar{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 .live-chat-widget.has-padded-container #comments-scroller{
     border-bottom: 1px solid #E2E2E2 !important;  /* does not work, no ideea why*/
@@ -429,7 +429,7 @@ body{
 }
 
 .live-comments-emoji-picker-tab-row{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 /* Live stream comments area */
 
@@ -441,7 +441,7 @@ body{
 
 /* View all comments page */
 #watch-response{
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 #watch-response-header-content p a{
     color: #167AC6 !important;
@@ -472,7 +472,7 @@ body{
     border-top: 1px solid #020106 !important;
 }
 .comment-simplebox {
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 .comment-simplebox-frame {
     border: 1px solid #020106 !important;
@@ -485,7 +485,7 @@ body{
     border-top-color: #167ac6 !important;
 }
 .comment-simplebox-arrow .arrow-inner {
-    border: 7px solid #1B1B1B !important;
+    border: 7px solid #0e0023 !important;
 }
 .comment-simplebox-arrow .arrow-outer {
     border: 6px solid #020106 !important;
@@ -509,7 +509,7 @@ body{
 }
 
 .channel-header .secondary-header-contents{
-    background: #1B1B1B !important;
+    background: #0e0023 !important;
     border-bottom: 1px solid #020106 !important;
 }
 .channel-header .secondary-header-contents a .nav-text {
@@ -600,13 +600,13 @@ body{
 
 /* Profile Dropdown */
 .yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border {
-    background: #1B1B1B !important;
+    background: #0e0023 !important;
 }
 .yt-masthead-account-picker.yt-uix-clickcard-card-content {
     color: #ABABAB !important;
 }
 .yt-masthead-picker-footer {
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
     border-top: 1px solid rgba(255,255,255,0.2) !important;
 }
 .yt-uix-clickcard-card-reverse .yt-uix-card-body-arrow-vertical,
@@ -621,7 +621,7 @@ body{
 
 /* Cards */
 .iv-card-content {
-    background: #1B1B1B !important;
+    background: #0e0023 !important;
 }
 .iv-card h2 {
     color: #ABABAB !important;
@@ -637,7 +637,7 @@ body{
 
 /* Endscreen Cards */
 .ytp-ce-expanding-overlay .ytp-ce-expanding-overlay-background {
-    background-color: #1B1B1B !important;
+    background-color: #0e0023 !important;
 }
 .ytp-ce-expanding-overlay .ytp-ce-website-title {
     color: #8D8D8D !important;
